@@ -1,0 +1,50 @@
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 30px;
+}
+
+.wrapper {
+  padding: 30px;
+  overflow-y: scroll;
+  
+}
+
+.h1 {
+  color: #333;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.list-item {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-item li {
+  margin-bottom: 8px;
+  color: #555;
+  border-bottom: 1px solid rgb(146, 137, 137);
+}
+
+.list-item-wrapper {
+ 
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.item-heading {
+
+  color: #3f273f;
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+
+.item-description {
+ 
+  color: #555;
+}
+
+

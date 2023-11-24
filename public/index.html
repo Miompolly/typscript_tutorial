@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        
+        <div class="container mt-4">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">Expenses</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Add Expenses</li>
+                </ol>
+            </nav>
+          
+            <div class="card" style="display: flex; flex-direction: row;height:500px;">
+                <div class="card-body" style="width: 50%;">
+                    <form class="form-new">
+                        <div class="form-group">
+                            <label for="type">Type</label>
+                            <select class="form-control" id="type" name="type">
+                                <option value="Invoice" >Invoice</option>
+                                <option value="Payment">Payment</option>
+                               
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="description">To/From</label>
+                            <input type="text" class="form-control" id="tofrom" name="tofrom" required>
+                        </div>
+                                                
+                        <div class="form-group">
+                            <label for="expense_date">Details</label>
+                            <input type="text" class="form-control" id="details" name="details" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="amount">Amount</label>
+                            <input type="number" class="form-control" id="amount" name="amount" required>
+                        </div>
+                        <input type="submit" class="btn btn-primary mt-3" value="Submit">
+                    </form>
+                </div>
+        
+                <div class="card" style="width: 50%;">
+                   <div class="wrapper">
+                    <h1 class="h1">Finance Logger</h1>
+                    <ul class="list-item">
+
+                        </
+
+
+                   </div>
+
+                </div>
+            </div>
+
+    <script type="module" src="app.js"></script>
+</html>
